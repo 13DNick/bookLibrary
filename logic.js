@@ -67,6 +67,11 @@ function buttonClicked(){
         const book = new Book(title.value, author.value, length.value, status.value);
         addBookToLibrary(book);
     }
+
+    title.value = "";
+    author.value = "";
+    length.value = "";
+    status.value = "";
 }
 
 
