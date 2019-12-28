@@ -1,9 +1,8 @@
 .book{
-    border: solid;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    
+    margin-top: 10px;
     white-space: pre;
-    text-align: center;
+    
 }
 
 #bookContainer{
@@ -29,4 +28,33 @@
 
 #inputs{
     margin-bottom: 34px;
+}
+
+form{
+    margin-left: 180px;
+}
+
+#lengthInput{
+    width: 40px;
+}
+
+#statusInput{
+    
+}
+
+.book > #div{
+    border: solid;
+    float: left;
+}
+
+.checkbox{
+    margin-top: 20px;
+    margin-left: 35px;
+    cursor: pointer;
+    opacity: 0;
+    transform: scale(7,5);  
+}
+
+.checkbox:checked{
+    background-color: green;
 }
